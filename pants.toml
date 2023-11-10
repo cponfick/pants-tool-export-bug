@@ -1,0 +1,11 @@
+[GLOBAL]
+pants_version = "2.18.0rc1"
+backend_packages = [
+    "pants.backend.python",
+    "pants.backend.experimental.python",
+    "pants.backend.python.lint.black",
+]
+
+[python]
+interpreter_constraints = [">=3.10,<3.11"]
+default_resolve = "python-default"
